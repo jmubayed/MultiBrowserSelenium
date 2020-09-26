@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+	<test name="Search_behavior_chorme">
+		<parameter name="platformName" value="chrome" />
+		<classes>
+			<class name="com.qa.tests.SearchTest"></class>
+		</classes>
+	</test>
+<!-- 	<test name="Search_behavior_firefox">
+		<parameter name="platformName" value="firefox" />
+		<classes>
+			<class name="com.qa.tests.SearchTest"></class>
+		</classes>
+	</test> -->
+</suite> <!-- Suite -->
